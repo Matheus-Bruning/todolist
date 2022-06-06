@@ -1,3 +1,28 @@
 body{
+  margin: 0%;
+  box-sizing: border-box; 
+  min-height: 100vh; align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat; background-position-y: 45%;
+  background-size: cover;
+  background-color: pink;
+ }
+ div{
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 18px;
+  border-radius: 30px;
+
+
+} 
+button{
+  border-radius: 44440px;
+  color: rgb(0, 0, 0);
+} 
+#black{
+  color: black;
     
 }
