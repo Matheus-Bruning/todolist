@@ -1,5 +1,5 @@
 const neymar = document.querySelector('input')
-const messi = document.querySelector('ol')
+const messi = document.querySelector('ul')
 let ramos = []
 
 function adicionar(){
