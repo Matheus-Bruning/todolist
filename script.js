@@ -1,11 +1,12 @@
 const neymar = document.querySelector('input')
-const messi = document.querySelector('ol')
+const messi = document.querySelector('ul')
 let ramos = []
 
 function adicionar(){
   ramos.push(neymar.value)
   console.log(ramos)
   render()
+  neymar.value = ''
 }
 
 function render(){
@@ -16,6 +17,7 @@ function render(){
     messi.appendChild(li)
   })
 }
+
 function apagar(){
   ramos = []
   messi.innerHTML = null
