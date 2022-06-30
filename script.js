@@ -4,7 +4,6 @@ let ramos = []
 
 function adicionar(){
   ramos.push(neymar.value)
-  console.log(ramos)
   render()
   neymar.value = ''
 }
